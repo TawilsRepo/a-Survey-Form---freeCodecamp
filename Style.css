@@ -1,0 +1,7 @@
+#dropdown ul ul{
+    display: none;
+}
+
+#dropdown ul li:hover >ul{
+    display: block;
+}

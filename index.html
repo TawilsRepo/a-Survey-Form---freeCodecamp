@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+<body>
+   <h1 id=title>Survey</h1>
+   <p id="description">Give me your honest opinion...ps:do not :p</p>
+   <form id="survey-form" action="index.html">
+
+      <label id="name-label" for="name">Name</label>
+       <input id="name" type="text" placeholder="Your name" required>
+       
+       <label id="email-label" for="email">E-mail</label>
+       <input id="email" type="email" placeholder="Your E-mail" required>
+       
+       <label id="number-label" for="number">Number</label>
+       <input id="number" type="number" min="1" max="10" placeholder="place anumber for some reason">
+
+    <select id="dropdown">
+          <option></option>
+          <option>JavaScript</option>
+          <option>HTML5</option>
+    </select>
+    
+    <label for="radio-g">
+        <input id="radio-g" type="radio" name="1" value="get 1">get 1
+    </label>
+    
+    <label for="radio-g2">
+        <input id="radio-g2" type="radio" name="1" value="get 2">get 2
+    </label>
+    
+    <label for="checkbox-g">
+        <input id="radio-g" type="checkbox" name="1" value="get 1">get 1
+    </label>
+    
+    <label for="checkbox-g2">
+        <input id="radio-g2" type="checkbox" name="1" value="get 2">get 2
+    </label>
+    
+    <textarea cols="30" rows="10"> some text area things or whatever</textarea>
+    
+    <input id="submit" type="submit">
+   </form> 
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
